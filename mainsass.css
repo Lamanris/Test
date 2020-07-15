@@ -155,23 +155,28 @@ body {
   font-weight: 500;
   font-size: 32px;
   line-height: 37px;
-  color: #000000; }
+  color: #000000;
+  margin-top: 100px; }
 
 .mainbox3__subtitle {
   display: inline-block;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  color: #727272; }
+  color: #727272;
+  margin-top: 30px; }
+
+.mainbox3__subtitle:nth-of-type(1) {
+  margin-top: 0; }
 
 .mainbox3__grayline {
   height: 4px;
   width: 445px;
-  background-color: #34547A; }
+  background-color: #C4C4C4; }
 
-.mainbox3__grayline::after {
-  height: 4px;
-  background-color: #C4C4C4;
-  width: 96px; }
+.mainbox3__blueline {
+  background-color: #34547A;
+  width: 349px;
+  height: 4px; }
 
 /*# sourceMappingURL=mainsass.css.map */
